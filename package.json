@@ -4,7 +4,13 @@
   "description": "Test example with Mocha and Cypress",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npx cypress run --headed",
+    "test-dev": "npx cypress run --config-file=dev.json --headed"
+  },
+  "devDependencies": {
+    "cypress": "^9.6.1",
+    "deepmerge": "^4.2.2",
+    "@faker-js/faker": "^6.1.2"
   },
   "repository": {
     "type": "git",

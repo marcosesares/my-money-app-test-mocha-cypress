@@ -1,0 +1,6 @@
+node_modules
+screenshots
+videos
+downloads
+cypress.env.json
+cypress/fixtures/paymentCycle.json
